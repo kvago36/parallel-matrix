@@ -1,0 +1,14 @@
+[package]
+name = "matrix-parallel"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[lib]
+name = "parallel"
+path = "src/lib.rs"
+
+[[bin]]
+name = "matrix-parallel"
+path = "src/main.rs"
